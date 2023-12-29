@@ -2,7 +2,7 @@ const express = require('express');
 const bodyParser = require('body-parser');
 const mongoose =require('mongoose')
 
-mongoose.connect('mongodb+srv://admin:admin@cluster0.1tfxvrc.mongodb.net/todos')
+mongoose.connect('mongodb+srv://{username}:{password}@cluster0.1tfxvrc.mongodb.net/todos')
 const app = express();
 const port = 3001;
   
